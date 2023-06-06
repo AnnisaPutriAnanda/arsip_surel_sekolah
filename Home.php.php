@@ -24,7 +24,7 @@
         <a class="nav-link" href="perpustakaan.php">Perpustakaan Digital</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Kontak Sekolah</a>
+        <a class="nav-link" href="kontak.php">Kontak Sekolah</a>
       </li>
     </ul>
   </div>

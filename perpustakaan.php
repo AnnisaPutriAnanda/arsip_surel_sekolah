@@ -18,13 +18,13 @@
         </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="TabelSurelMasuk.php">Home</a>
+        <a class="nav-link" href="Home.php.php">Home</a>
       </li>
       <li class="nav-item">
         <a class="nav-link active" href="#">Perpustakaan Digital</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Kontak Sekolah</a>
+        <a class="nav-link" href="kontak.php">Kontak Sekolah</a>
       </li>
     </ul>
   </div>
