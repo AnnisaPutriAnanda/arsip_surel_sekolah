@@ -8,7 +8,6 @@
   </head>
   <body>
     <div class="navigation_bar">
-
     <nav class="navbar navbar-expand-sm bg-success navbar-dark">
   <div class="container-fluid">
     <ul class="navbar-nav">
@@ -31,7 +30,7 @@
 </nav>
 </div>
 
-  <div class="container-fluid overflow-auto">
+  <div class="container-fluid overflow-auto position-absolute">
 
  <div class="bg-image" style="background-image: url('https://scontent.fpku4-1.fna.fbcdn.net/v/t39.30808-6/294391448_548486346900647_8273495434617047595_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=e3f864&_nc_ohc=sOzrp8lISiEAX8nzWPp&_nc_ht=scontent.fpku4-1.fna&oh=00_AfB8PByRn-yBHshHiZHaXmD3YQC2inkbmckv7sDpaiWDiA&oe=648211C2'); height: 400px;">
   <img src="LOGO_SMK_LABOR_HD.png"  style="width:150px;">
@@ -40,7 +39,7 @@
 
 </div>
 
-<main class="container border">
+<main class="container border container-fluid">
         <div class="row">
             <div class="col-md-9">
                 <h1>Kata Sambutan Kepala Sekolah</h1>
@@ -54,10 +53,10 @@
                 <p>Tes saja kasjksjkajskasjk</p></span></div>
                 
               </div>
-              <div class="z-depth-1-half map-container" width="100%" height="600">
+              <div class="z-depth-1-half map-container-fluid" width="100%" height="600">
               <center>
   <iframe src="https://maps.google.com/maps?q=Sekolah Menengah Kejuruan Labor&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
-    style="border:0" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+    style="border:0" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
   </center>
     <!--https://maps.app.goo.gl/JoR5avpWfPe4XGrVA-->
 </div> <!--https://www.google.com/maps/place/Sekolah+Menengah+Kejuruan+Labor/@0.5161824,101.4603881,17z/data=!3m1!4b1!4m6!3m5!1s0x31d5ac2792549a3d:0x81cc3a1c03a613f3!8m2!3d0.516177!4d101.462963!16s%2Fg%2F1pzxhktqx?entry=ttu-->
