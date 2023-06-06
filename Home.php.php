@@ -40,11 +40,75 @@
 
 </div>
 
-  <h1 class="text-center">Mengenai<h1>
-  <p class="text-sm-center" style="font-size: 18px;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p></div>
-  
+<main class="container border">
+        <div class="row">
+            <div class="col-md-9">
+                <h1>Kata Sambutan Kepala Sekolah</h1>
+                <div class="container text-left">
+                  <span class="align-baseline">
+                <img class="rounded-circle img-fluid" src="pakHendri.jpg"  style="width:150px;">
+                <p class="text-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad reprehenderit libero unde ullam ducimus sunt, saepe fugit animi accusamus accusantium excepturi corrupti aut tenetur? Cumque quasi ratione ipsam facere quod?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad reprehenderit libero unde ullam Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad reprehenderit libero unde ullam ducimus sunt, saepe fugit animi accusamus accusantium Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad reprehenderit libero unde ullam ducimus sunt, saepe fugit animi accusamus accusantium excepturi corrupti aut tenetur? Cumque quasi ratione ipsam facere quod? excepturi corrupti aut tenetur? Cumque quasi ratione ipsam facere quod? ducimus sunt, saepe fugit animi accusamus accusantium excepturi corrupti aut tenetur? Cumque quasi ratione ipsam facere quod?</p>
+</span>
+                  <div class="bg-secondary"><span class="border border-dark">
+                <p>Tes saja kasjksjkajskasjk</p></span></div>
+                
+              </div>
+              <div class="z-depth-1-half map-container" width="100%" height="600">
+              <center>
+  <iframe src="https://maps.google.com/maps?q=Sekolah Menengah Kejuruan Labor&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
+    style="border:0" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+  </center>
+    <!--https://maps.app.goo.gl/JoR5avpWfPe4XGrVA-->
+</div> <!--https://www.google.com/maps/place/Sekolah+Menengah+Kejuruan+Labor/@0.5161824,101.4603881,17z/data=!3m1!4b1!4m6!3m5!1s0x31d5ac2792549a3d:0x81cc3a1c03a613f3!8m2!3d0.516177!4d101.462963!16s%2Fg%2F1pzxhktqx?entry=ttu-->
+              </div>
+            <div class="col-md-3 bg-success text-white">
+              <!--Bar Samping-->
+                <h1>Side</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad reprehenderit libero unde ullam ducimus sunt, saepe fugit animi accusamus accusantium excepturi corrupti aut tenetur? Cumque quasi ratione ipsam facere quod?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad reprehenderit libero unde ullam ducimus sunt, saepe fugit animi accusamus accusantium excepturi corrupti Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad reprehenderit libero unde ullam ducimus sunt, saepe fugit animi accusamus accusantium excepturi corrupti aut tenetur? Cumque quasi ratione ipsam facere quod? aut tenetur? Cumque quasi ratione ipsam facere quod?</p>
+                <div class="container bg-secondary text-center">    
+<span class="border rounded-end">
+                  <div class="digital-clock">
+      <div class="row align-center rounded">
+        <div class="col"><p id = "jam"></p></div>
+        <div class="col">:</div>
+        <div class="col"><p id = "menit"></p></div>
+        <div class="col">:</div>
+        <div class="col"><p id = "detik"></p></th></div>
+       </div></span>
+
+    <script type="text/javascript">
+        window.setTimeout("wktu()", 1000);
+        function wktu(){
+            var wktu = new Date;
+            setTimeout("wktu()", 1000);
+            document.getElementById("jam").innerHTML = wktu.getHours();
+            document.getElementById("menit").innerHTML = wktu.getMinutes();
+            document.getElementById("detik").innerHTML = wktu.getSeconds();
+        }
+       </script></div></div>
+                 <span class="border border-success">
+          <div class="container bg-light text-dark text-left overflow-auto">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad reprehenderit libero unde ullam ducimus sunt, saepe fugit animi</p>
+          <div class="ratio ratio-16x9">
+  <iframe src="https://www.youtube.com/embed/tYN5CN-GbiI?rel=0" title="Prestasi"></iframe>
+</div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad reprehenderit libero unde ullam ducimus sunt, saepe fugit animi accusamus accusantium excepturi corrupti aut tenetur? Cumque quasi ratione ipsam facere quod?</p>
+           <div class="ratio ratio-16x9">
+  <iframe src="https://www.youtube.com/embed/XWG6VNP8_48?rel=0" title="Karya Siswa"></iframe>
+</div> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad reprehenderit libero unde ullam ducimus sunt, saepe fugit animi</p>
+          </div>
+      </span>
+              </div>
 
 
+              <footer class="container bg-success">
+        <div class="row">
+          <div class="col-12 py-4">
+            </div>
+        </div>
+    </footer>
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
